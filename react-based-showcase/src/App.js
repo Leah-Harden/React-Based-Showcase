@@ -1,4 +1,6 @@
 
+
+
 import * as React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -10,17 +12,14 @@ import Resume from './components/Pages/Resume';
 
 function App() {
   return (
-
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="Contact" element={<Contact />} />
-        <Route path="Resume" element={<Resume />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="resume" element={<Resume />} />
       </Routes>
     </Router>
-
-
   )
 }
 

@@ -4,7 +4,7 @@
 function Home() {
     return (
         <div className="Home">
-            <div>
+            <div className="homeText">
 
                 <h2>Welcome!</h2>
                 <h1>I am Leah Xinli Harden</h1>
