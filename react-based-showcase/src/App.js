@@ -10,6 +10,9 @@ import About from './components/Pages/AboutMe';
 import Contact from './components/Pages/Contact';
 import Resume from './components/Pages/Resume';
 
+import './App.css'; // Import the CSS file
+
+
 function App() {
   return (
     <Router>

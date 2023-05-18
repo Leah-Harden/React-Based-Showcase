@@ -1,11 +1,10 @@
-
 import Nav from 'react-bootstrap/Nav';
-import '../App.css';
+
 
 
 function Header() {
     return (
-        <div className='NavBar'>
+        <div>
             <Nav className='NavUl'>
                 <Nav.Item>
                     <Nav.Link href="/" className='link'>Home</Nav.Link>
@@ -20,10 +19,9 @@ function Header() {
                     <Nav.Link href="/resume" className='link'>Resume</Nav.Link>
                 </Nav.Item>
             </Nav>
-            <h2 className='siteTitle'>Leah Harden</h2>
         </div>
     );
 
 }
 
-export default Header;
+export default Header;;
