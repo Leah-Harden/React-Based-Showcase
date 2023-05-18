@@ -28,7 +28,7 @@ function Resume() {
             May 21-Aug 21, 2022
             Skills:
             •	Communicating to work effectively as a team
-            •	Organizing one’s workspace.
+            •	Organizing one's workspace.
             •	Collaborate with peers and managers
 
 
@@ -55,9 +55,9 @@ function Resume() {
 
             In addition, I have been involved in many volunteer organizations which include:
 
-            	Arnold Palmer Children’s Hospital  Art Cart, Pre-Op, and Nursery Volunteer Program (150+ hours)
+            	Arnold Palmer Children's Hospital  Art Cart, Pre-Op, and Nursery Volunteer Program (150+ hours)
             I volunteer for over 150 hours. I had three main jobs that I would do. The Art Cart, where I would go over all of the waiting rooms and draw and play with the kids. Pre Op where I help the nurses with their daily routine and make IVs. Then there was the Nursery, where I helped the nurses on that floor as well has helped the new mothers.
-            	*Nathaniel’s Hope
+            	*Nathaniel's Hope
             	*Give Kids the World
             	*Ronald McDonald House - Orlando
             	*First Baptist Church of Orlando Summer Youth Camps
