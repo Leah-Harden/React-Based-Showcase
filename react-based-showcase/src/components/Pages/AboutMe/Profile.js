@@ -1,7 +1,7 @@
 
 
 
-function Profile() {
+function Profile({ }) {
     return (
         <img src='#' alt="" />
     );

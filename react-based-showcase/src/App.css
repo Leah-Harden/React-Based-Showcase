@@ -32,6 +32,24 @@
 -----------Colors
 */
 
+/*
+  fonts
+*/
+
+
+.crimson {
+  font-family: 'Crimson Pro', serif;
+}
+
+.Cavent {
+  font-family: 'Caveat', cursive;
+}
+
+/*
+  fonts
+*/
+
+
 .background {
   background-color: var(--colortwo);
 }
