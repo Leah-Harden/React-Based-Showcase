@@ -3,10 +3,18 @@
 function Social() {
     return (
         <div>
+            <a href="https://instagram.com/leahharden_?igshid=OGQ5ZDc2ODk2ZA==">
 
-            <img src='#' alt="instgram" />
-            <img src='#' alt="Linkedin" />
-            <img src='#' alt="GitHub" />
+                <img src='photos/Inst.png' alt="instgram" className="icon" />
+            </a>
+            <a href="https://www.linkedin.com/in/leahxharden/">
+
+                <img src='photos/linkedin.png' alt="Linkedin" className="icon" />
+            </a>
+            <a href="https://github.com/Leah-Harden/React-Based-Showcase">
+
+                <img src='photos/git.png' alt="GitHub" className="icon" />
+            </a>
 
 
         </div >
@@ -14,5 +22,6 @@ function Social() {
     );
 
 }
+
 
 export default Social;

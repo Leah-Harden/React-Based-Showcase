@@ -131,11 +131,17 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 20px;
 }
 
 .NavUl {
   padding: 14px;
   font-size: 20px;
+}
+
+.icon {
+  height: 50px;
+  margin: 20px;
 }
 
 /* Nav */
@@ -147,7 +153,11 @@
   display: flex;
   flex-direction: column;
 
+
 }
+
+.homePhoto {}
+
 
 .homeText {
   display: flex;

@@ -1,6 +1,6 @@
 function Profile({ }) {
     return (
-        <img src='#' alt="" className="profilePhoto" />
+        <img src='#' alt="" className="profilePhoto homePhoto" />
     );
 }
 
