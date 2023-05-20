@@ -172,6 +172,40 @@
 
 /* Home */
 
+.projectPage {
+  background-color: #FCCABE;
+  padding: 30px;
+}
+
+.projectCard {
+
+  width: 290px;
+}
+
+.projectPhoto {
+  background-color: var(--offblack);
+  height: 250px;
+  width: 290px;
+}
+
+.projectTitle {
+  background-color: var(--colorone);
+  color: var(--offblack);
+  padding: 5px;
+
+}
+
+.projectDres {
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
 /* Resume */
 .ResumeWhole {
   color: var(--offblack);
