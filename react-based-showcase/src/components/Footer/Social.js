@@ -11,7 +11,7 @@ function Social() {
 
                 <img src='photos/linkedin.png' alt="Linkedin" className="icon" />
             </a>
-            <a href="https://github.com/Leah-Harden/React-Based-Showcase">
+            <a href="https://github.com/Leah-Harden/">
 
                 <img src='photos/git.png' alt="GitHub" className="icon" />
             </a>

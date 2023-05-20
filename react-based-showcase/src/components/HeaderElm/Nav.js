@@ -10,6 +10,9 @@ function Header() {
                     <Nav.Link href="/" className='link'>Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
+                    <Nav.Link href="/profoilo" className='link'>Profoilo</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
                     <Nav.Link href="/about" className='link'>About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
