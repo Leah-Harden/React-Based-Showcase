@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import Header from './components/HeaderElm/Header';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

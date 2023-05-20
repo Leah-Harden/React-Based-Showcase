@@ -8,7 +8,7 @@ function Contact() {
     return (
         <div className="col center Contact">
 
-            <h2 className='Title'>Let's get in contact</h2>
+            <h2 className='Title cavent'>Let's get in contact</h2>
             <Form />
 
         </div>

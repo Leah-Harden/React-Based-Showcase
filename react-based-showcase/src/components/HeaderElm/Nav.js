@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 function Header() {
     return (
         <div>
-            <Nav className='NavUl'>
+            <Nav className='NavUl crimson'>
                 <Nav.Item>
                     <Nav.Link href="/" className='link'>Home</Nav.Link>
                 </Nav.Item>

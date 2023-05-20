@@ -2,7 +2,7 @@
 
 
 function Form({ }) {
-    return (<form className="formResume">
+    return (<form className="formResume crimson">
         <div>
             <input type="text" name="firstName" value='Jane' className="inset" />
             <input type="text" name="LastName" value='Doe' className="inset" />

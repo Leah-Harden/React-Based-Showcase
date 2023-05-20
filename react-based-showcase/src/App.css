@@ -41,7 +41,9 @@
   font-family: 'Crimson Pro', serif;
 }
 
-.Cavent {
+
+
+.cavent {
   font-family: 'Caveat', cursive;
 }
 
@@ -62,6 +64,21 @@
 .center {
   align-items: center;
 }
+
+
+
+/* footer */
+
+
+.footer {
+  padding: 20px;
+}
+
+
+
+
+
+/* footer */
 
 /* Contact */
 
@@ -118,12 +135,20 @@
 
 .NavUl {
   padding: 14px;
-
+  font-size: 20px;
 }
 
 /* Nav */
 
 /* Home */
+
+.Home {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+
+}
+
 .homeText {
   display: flex;
   flex-direction: column;
@@ -145,3 +170,37 @@
 }
 
 /* Resume */
+
+/* AboutMe */
+
+.aboutMe {
+  display: flex;
+  padding: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilePhoto {
+  background-color: #382e2f;
+  min-width: 350px;
+  min-height: 350px;
+  max-width: 350px;
+  max-height: 350px;
+  border-radius: 50%;
+}
+
+.aboutText {
+  padding: 45px;
+  max-width: 800px;
+}
+
+.aboutTitle {
+  font-size: 40px;
+}
+
+
+.aboutDesc {
+  font-size: 22px;
+}
+
+/* AboutMe */

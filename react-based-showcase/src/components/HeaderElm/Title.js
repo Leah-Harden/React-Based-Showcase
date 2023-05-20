@@ -4,7 +4,7 @@
 function Title() {
     return (
 
-        <h1>Leah Harden</h1>
+        <h1 className="crimson">Leah Harden</h1>
 
         // maybe Xinli?
     );
