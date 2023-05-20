@@ -1,9 +1,14 @@
 
+import Project from './Project';
 
 
 function Portfolio() {
-    return
+    return (
+        <div>
+            <Project />
+        </div>
 
+    )
 }
 
 
