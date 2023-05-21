@@ -1,3 +1,30 @@
+/* 
+-----------Table of Contents
+
+  --required 
+    --colors
+    --fonts
+-------------------
+  --footer
+  
+  --Header
+
+  --portfolio
+    --big
+    --normal
+
+  --AboutMe
+
+  --Contact
+
+  --Resume
+
+*/
+
+
+
+/* required */
+
 .App {
   text-align: center;
 }
@@ -32,6 +59,8 @@
 -----------Colors
 */
 
+
+
 /*
   fonts
 */
@@ -65,6 +94,7 @@
   align-items: center;
 }
 
+/* required */
 
 
 /* footer */
@@ -80,45 +110,7 @@
 
 /* footer */
 
-/* Contact */
-
-.Contact {
-  padding: 50px;
-}
-
-.inset {
-  background-color: var(--colorthr);
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px;
-}
-
-
-.Title {
-  margin: 60px;
-  font-size: 40px;
-}
-
-
-.FormBtn {
-  padding: 5px;
-  border: none;
-  border-radius: 7px;
-  background-color: var(--colorone);
-  width: 30%;
-}
-
-/* .FormTextarea {
-  height: 200px;
-} */
-
-
-
-/* Contact */
-
-
-/* Nav */
+/* Header */
 
 .siteTitle {
   font-size: 35px;
@@ -144,7 +136,8 @@
   margin: 20px;
 }
 
-/* Nav */
+/* Header */
+
 
 /* Home */
 
@@ -171,8 +164,7 @@
 
 
 /* Home */
-
-/* project */
+/* portfolio */
 
 .projectPage {
   display: flex;
@@ -256,19 +248,7 @@
 
 
 
-/* project */
-
-
-
-/* Resume */
-.ResumeWhole {
-  color: var(--offblack);
-  padding: 50px 300px 100px 100px;
-
-}
-
-/* Resume */
-
+/* portfolio */
 /* AboutMe */
 
 .aboutMe {
@@ -302,3 +282,49 @@
 }
 
 /* AboutMe */
+
+
+/* Contact */
+
+.Contact {
+  padding: 50px;
+}
+
+.inset {
+  background-color: var(--colorthr);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.Title {
+  margin: 60px;
+  font-size: 40px;
+}
+
+
+.FormBtn {
+  padding: 5px;
+  border: none;
+  border-radius: 7px;
+  background-color: var(--colorone);
+  width: 30%;
+}
+
+
+/* Contact */
+
+
+
+
+
+/* Resume */
+.ResumeWhole {
+  color: var(--offblack);
+  padding: 50px 300px 100px 100px;
+
+}
+
+/* Resume */
