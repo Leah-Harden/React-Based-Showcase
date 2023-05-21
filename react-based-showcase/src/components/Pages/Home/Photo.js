@@ -1,6 +1,8 @@
-function Profile({ }) {
+function Profile() {
     return (
-        <img src='#' alt="" className="profilePhoto homePhoto" />
+        <img src='photos/Me/meFrontPage.png' alt=""
+            className="homePhoto"
+        />
     );
 }
 

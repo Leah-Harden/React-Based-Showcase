@@ -142,24 +142,40 @@
 /* Home */
 
 .Home {
-  padding: 100px;
+  padding: 10px 250px 10px 250px;
   display: flex;
   flex-direction: column;
 
 
 }
 
-.homePhoto {}
+.homePhoto {
+  align-self: flex-end;
+  max-width: 550px;
+  max-height: 550px;
+
+}
 
 
 .homeText {
   display: flex;
   flex-direction: column;
+
   align-items: flex-start;
 
+}
+
+.subTitleHome {
+  font-size: 35px;
+}
 
 
+.titleHome {
+  font-size: 50px;
+}
 
+.subtextHome {
+  font-size: 20px
 }
 
 
