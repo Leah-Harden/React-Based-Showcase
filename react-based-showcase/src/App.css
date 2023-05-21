@@ -172,26 +172,80 @@
 
 /* Home */
 
+/* project */
+
+.projectPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.portfolioTitle {
+  padding: 50px;
+  font-size: 50px;
+}
+
+.bigprojectPage {
+  background-color: #FCCABE;
+  padding: 30px;
+}
+
+.bigprojectCard {
+
+  width: 600px;
+}
+
+.bigprojectPhoto {
+  background-color: var(--offblack);
+  height: 300px;
+  width: 600px;
+}
+
+.bigprojectTitle {
+  background-color: var(--colorone);
+  color: var(--offblack);
+  padding: 10px;
+
+}
+
+
+.bigprojectDesc {
+  padding: 15px;
+}
+
+/* ////////////////////////////////////////////////*/
+
+.projectDiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 50px 50px 50px;
+  justify-content: center;
+}
+
+
 .projectPage {
   background-color: #FCCABE;
   padding: 30px;
 }
 
 .projectCard {
+  width: 310px;
+  margin: 50px;
 
-  width: 290px;
 }
 
 .projectPhoto {
   background-color: var(--offblack);
   height: 250px;
-  width: 290px;
+  width: 310px;
 }
 
 .projectTitle {
   background-color: var(--colorone);
   color: var(--offblack);
-  padding: 5px;
+  padding: 10px;
 
 }
 
@@ -202,7 +256,7 @@
 
 
 
-
+/* project */
 
 
 

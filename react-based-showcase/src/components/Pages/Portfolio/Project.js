@@ -2,17 +2,16 @@
 
 function Project({ projects }) {
     return (
-        <div>
-            {projects.map((project, index) => (
-                <div key={index} className="projectCard">
-                    <a href={project.link} className="projectA">
-                        <img src={project.photo} className="projectPhoto" alt={project.phototext} />
-                        <h2 className="projectTitle cavent">{project.title}</h2>
-                    </a>
-                    <p className="projectDesc crimson">{project.desc}</p>
-                </div>
-            ))}
-        </div>
+
+        projects.map(({ photo, phototext, link, title, desc }, index) => (
+            <div key={index} className="projectCard">
+                <a href={link} className="projectA">
+                    <img src={photo} className="projectPhoto" alt={phototext} />
+                    <h2 className="projectTitle cavent">{title}</h2>
+                </a>
+                <p className="projectDesc crimson">{desc}</p>
+            </div>
+        ))
     );
 }
 export default Project;
