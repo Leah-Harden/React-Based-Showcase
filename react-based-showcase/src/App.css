@@ -182,6 +182,11 @@
 /* Home */
 /* portfolio */
 
+.portfolioTitle {
+  font-size: 50px;
+  padding: 35px;
+}
+
 .projectPage {
   display: flex;
   flex-direction: column;
@@ -190,37 +195,38 @@
 
 }
 
-.portfolioTitle {
-  padding: 50px;
-  font-size: 50px;
+.bigportfolioTitle {
+  padding: 55px;
+  font-size: 55px;
 }
 
 .bigprojectPage {
   background-color: #FCCABE;
-  padding: 30px;
+  padding: 35px;
 }
 
 .bigprojectCard {
 
-  width: 600px;
+  width: 700px;
 }
 
 .bigprojectPhoto {
   background-color: var(--offblack);
-  height: 300px;
-  width: 600px;
+  height: 350px;
+  width: 700px;
 }
 
 .bigprojectTitle {
   background-color: var(--colorone);
   color: var(--offblack);
-  padding: 10px;
+  padding: 15px;
+  font-size: 36px;
 
 }
 
-
 .bigprojectDesc {
   padding: 15px;
+  font-size: 18px;
 }
 
 /* ////////////////////////////////////////////////*/
@@ -228,7 +234,7 @@
 .projectDiv {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px 50px 50px 50px;
+  margin: 30px 30px 30px 30px;
   justify-content: center;
 }
 
@@ -239,7 +245,7 @@
 }
 
 .projectCard {
-  width: 310px;
+  width: 350px;
   margin: 50px;
 
 }
@@ -247,13 +253,13 @@
 .projectPhoto {
   background-color: var(--offblack);
   height: 250px;
-  width: 310px;
+  width: 350px;
 }
 
 .projectTitle {
   background-color: var(--colorone);
   color: var(--offblack);
-  padding: 10px;
+  padding: 15px;
 
 }
 
