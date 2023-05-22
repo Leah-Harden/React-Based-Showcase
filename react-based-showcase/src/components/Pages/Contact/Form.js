@@ -42,20 +42,19 @@ const SubmitForm = () => {
 
         <form className="formResume crimson" onSubmit={handleSubmit}>
             <div>
-                <input type="text" name="firstName" value={formData.fname} id='firstName' className="inset" onChange={handleChange} />
+                <input type="text" name="fname" id='firstName' className="inset" onChange={handleChange} />
 
 
 
-                <input type="text" name="LastName" value={formData.lname} className="inset" onChange={handleChange} />
+                <input type="text" name="lname" className="inset" onChange={handleChange} />
             </div>
             <div className="col center">
-                <input type="email" name="Email" className="inset emailForm" onChange={handleChange} value={formData.email} />
-
-                {!emailValid && <p>Please enter a valid email</p>}
+                <input type="email" name="email" className="inset emailForm" onChange={handleChange} />
 
 
-                <textarea className="inset FormTextarea" rows='10' cols={50} value={formData.message}></textarea>
-                {/* <p>please fill in the following field(s)</p> */}
+
+
+                <textarea className="inset FormTextarea" rows='10' cols={50} name='message' onChange={handleChange} />
                 <button type="submit" className="FormBtn">Submit</button>
             </div>
         </form >);
