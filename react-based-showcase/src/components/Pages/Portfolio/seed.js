@@ -8,7 +8,7 @@ const projects = [
         phototext: `A note screenshot`,
         link: `https://github.com/Leah-Harden/The-Perfect-Note-Taker`,
         title: `The Perfect Note Taker`,
-        desc: `This is a applaction that you can add and save notes. This is done using the back end.Use this to keep yourself organized! `
+        desc: `This is a applaction that you can add and save notes. This is done using the Express and Node.js. Use it to stay organized and keep track of important information.`
     },
     {
         photo: `photos/projects/butterfly-APi.jpg`,
@@ -18,29 +18,29 @@ const projects = [
         desc: `This is a API that was made with mongoDB. It has both users and thoughts those users have. Useing this you can keep track of large part of data. You also can create, delete and alter any one of these things.`
     },
     {
-        photo: ``,
+        photo: `photos/projects/ORM.jpg`,
         phototext: ``,
-        link: `https://github.com/Leah-Harden/E-commerce-Back-End-ORM`,
+        link: `https://github.com/Leah-Harden/E-commerce-ORM`,
         title: `E-commerce Back End ORM`,
-        desc: `This a program that allow you to track products and organize them. You can put them in Categories and they each have product tags.`
+        desc: `With my program, you can keep your products in order and easily track them. The program automatically assigns tags to each product, and you can categorize them however you prefer. If you need to make any adjustments, it's simple to modify or create new products, tags, or categories. The program was developed using Express, MySQL, and Sequelize.`
     },
     {
         photo: `photos/projects/teamMaker.png`,
         phototext: `The options for the team maker`,
         link: `https://github.com/Leah-Harden/Team-Profile-Maker`,
         title: `Team-Profile-Maker`,
-        desc: `This is a terminal program that allow to you to build a team for you business and manage them. You are able to add a manager,intern and engineer. These are all attach too each of other. Like every Employee will be tied to there manager. You are also able to add you own custom jobs that will be tie to each employee. All of these things can be change and altered at a whim.`
+        desc: `Welcome to the team building and management program! With this terminal program, you can easily create a team for your business and keep track of your employees. You have the option to add a manager, intern, and engineer, and each employee will be linked to their respective manager. Additionally, you can customize each employee's job. Than it will create a html page that you can open up with live server. This program offers flexibility and convenience, making it easy to manage and build a successful team.`
     },
     {
         photo: `photos/projects/ReadMe.png`,
         phototext: ``,
         link: `https://github.com/Leah-Harden/Professional-Readme-Maker`,
         title: `Professional Readme Maker`,
-        desc: `It makes a Readme for you so you can spend more time coding! Just answer the questions and you are set!`
+        desc: `This is a program designed to create a Readme file for you. By answering a few simple questions, you can save valuable time that can be spent on coding. Our program will generate a file based on your responses, making it easy for you to create a professional and informative Readme file.`
     },
     {
-        photo: ``,
-        phototext: ``,
+        photo: `photos/projects/Ball.jpg`,
+        phototext: `The front page of the name input screen.`,
         link: `https://github.com/Leah-Harden/What-the-Magic-Ball-sees`,
         title: `What the Magic Ball sees`,
         desc: `I decide to make this fun game in about a week. You put in your name and the Magic ball guess your age, gender, nationality and provide a photo. This project uses five Apis. Three to guess your age, gender and nationality. One to decode part of that to be readable and the last one to display a picture. The photo is base off what the first three apis thought of your name.`
@@ -50,10 +50,8 @@ const projects = [
         phototext: `The main page of the weather dashboard`,
         link: `https://github.com/Leah-Harden/Weather-Dashboard`,
         title: `Weather-Dashboard`,
-        desc: `A weather dashboard of many different major cities. You can search for any major city in the search bar to get the five date forecast for that city. There are icon for each day to show the based weather.All the data come from the openweather Api. I also use jQuery and bootstrap to build it.`
+        desc: `This is a weather dashboard that compiles information from many different major cities all around the world. Simply enter the name of the city you are interested in and you will be able to access the five-day forecast for that location. Each day is represented by an icon, providing an easy-to-understand visual representation of the upcoming weather. You can even add new cities to the list on the side, allowing you to keep track of multiple locations at once. To create this program, I used JQuery, Bootstrap, and two separate APIs.`
     }
-
-
 ]
 
 
