@@ -4,7 +4,7 @@ function BigProject() {
 
             <div className="bigprojectCard">
                 <a href='https://github.com/Leah-Harden/Ask-Alice' className="bigprojectA">
-                    <img src="" className="bigprojectPhoto" alt='' />
+                    <img src="/photos/projects/AA.jpg" className="bigprojectPhoto" alt='The recall page of Ask Alice' />
                     <h2 className="bigprojectTitle cavent">Ask Alice: A Recall Rabbit Hole
                     </h2>
                 </a>

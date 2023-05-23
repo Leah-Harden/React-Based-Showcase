@@ -29,7 +29,7 @@ const projects = [
         phototext: `The options for the team maker`,
         link: `https://github.com/Leah-Harden/Team-Profile-Maker`,
         title: `Team-Profile-Maker`,
-        desc: `Welcome to the team building and management program! With this terminal program, you can easily create a team for your business and keep track of your employees. You have the option to add a manager, intern, and engineer, and each employee will be linked to their respective manager. Additionally, you can customize each employee's job. Than it will create a html page that you can open up with live server. This program offers flexibility and convenience, making it easy to manage and build a successful team.`
+        desc: `You can easily create a team for your business and keep track of your employees. You have the option to add a manager, intern, and engineer, and each employee will be linked to their respective manager. Additionally, you can customize each employee's job. Than it will create a html page that you can open up with live server. `
     },
     {
         photo: `photos/projects/ReadMe.png`,
@@ -50,7 +50,7 @@ const projects = [
         phototext: `The main page of the weather dashboard`,
         link: `https://github.com/Leah-Harden/Weather-Dashboard`,
         title: `Weather-Dashboard`,
-        desc: `This is a weather dashboard that compiles information from many different major cities all around the world. Simply enter the name of the city you are interested in and you will be able to access the five-day forecast for that location. Each day is represented by an icon, providing an easy-to-understand visual representation of the upcoming weather. You can even add new cities to the list on the side, allowing you to keep track of multiple locations at once. To create this program, I used JQuery, Bootstrap, and two separate APIs.`
+        desc: `This is a weather dashboard that compiles information from many different major cities all around the world. Simply enter the name of the city you are interested in and you will be able to access the five-day forecast for that location. You can even add new cities to the list on the side, allowing you to keep track of multiple locations at once.`
     }
 ]
 

@@ -3,7 +3,7 @@
 
 function Profile({ }) {
     return (
-        <img src='#' alt="" className="profilePhoto" />
+        <img src='/photos/Me/MeBook.jpg' alt="" className="profilePhoto" />
     );
 }
 

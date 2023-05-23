@@ -245,7 +245,7 @@
 }
 
 .projectCard {
-  width: 350px;
+  width: 375px;
   margin: 50px;
 
 }
@@ -253,8 +253,17 @@
 .projectPhoto {
   background-color: var(--offblack);
   height: 250px;
-  width: 350px;
+  width: 375px;
+  transition-duration: 0.5s;
+
 }
+
+.projectPhoto:hover {
+
+  opacity: 60%;
+}
+
+
 
 .projectTitle {
   background-color: var(--colorone);
@@ -282,10 +291,10 @@
 
 .profilePhoto {
   background-color: #382e2f;
-  min-width: 350px;
-  min-height: 350px;
-  max-width: 350px;
-  max-height: 350px;
+  min-width: 400px;
+  min-height: 400px;
+  max-width: 400px;
+  max-height: 400px;
   border-radius: 50%;
 }
 
