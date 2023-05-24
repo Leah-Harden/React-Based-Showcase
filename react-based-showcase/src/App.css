@@ -22,6 +22,26 @@
 */
 
 
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-150px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slideInBottom {
+  from {
+    transform: translateY(150px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
 
 /* required */
 
@@ -153,6 +173,7 @@
   align-self: flex-end;
   max-width: 550px;
   max-height: 550px;
+  margin: 10px;
 
 }
 
@@ -160,8 +181,10 @@
 .homeText {
   display: flex;
   flex-direction: column;
-
   align-items: flex-start;
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  max-width: 600px;
 
 }
 
@@ -195,6 +218,7 @@
 
 }
 
+/* */
 .bigportfolioTitle {
   padding: 55px;
   font-size: 55px;
@@ -206,8 +230,9 @@
 }
 
 .bigprojectCard {
-
   width: 700px;
+  animation-name: slideInBottom;
+  animation-duration: 1.5s;
 }
 
 .bigprojectPhoto {
@@ -247,6 +272,8 @@
 .projectCard {
   width: 375px;
   margin: 50px;
+  animation-name: slideInBottom;
+  animation-duration: 2.50s;
 
 }
 
@@ -254,6 +281,7 @@
   background-color: var(--offblack);
   height: 250px;
   width: 375px;
+
   transition-duration: 0.5s;
 
 }
@@ -321,6 +349,12 @@
   padding: 50px;
 }
 
+.formDiv {
+  display: flex;
+  justify-content: center;
+
+}
+
 .inset {
   background-color: var(--colorthr);
   border: none;
@@ -346,16 +380,14 @@
 
 
 /* Contact */
-
-
-
-
-
 /* Resume */
 .ResumeWhole {
   color: var(--offblack);
   padding: 50px 300px 100px 100px;
 
 }
+
+
+
 
 /* Resume */

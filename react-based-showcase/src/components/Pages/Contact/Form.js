@@ -41,11 +41,8 @@ const SubmitForm = () => {
     return (
 
         <form className="formResume crimson" onSubmit={handleSubmit}>
-            <div>
+            <div className='center formDiv'>
                 <input type="text" name="fname" id='firstName' className="inset" onChange={handleChange} />
-
-
-
                 <input type="text" name="lname" className="inset" onChange={handleChange} />
             </div>
             <div className="col center">
