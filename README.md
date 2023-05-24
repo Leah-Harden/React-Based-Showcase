@@ -3,6 +3,8 @@
 Welcome to my portfolio website, which was built using React. Here, you can find information about me and the various projects that I have completed. If you see a project that interests you, simply click on it to be taken directly to its GitHub page. Additionally, you can view my resume to get a better understanding of my experience. Thanks for visiting!
 
 
+![App Screenshot](./react-based-showcase/public/photos/ReadMe.png)
+
 ## Deployment
 
 To deploy this project:
