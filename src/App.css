@@ -1,0 +1,393 @@
+/* 
+-----------Table of Contents
+
+  --required 
+    --colors
+    --fonts
+-------------------
+  --footer
+  
+  --Header
+
+  --portfolio
+    --big
+    --normal
+
+  --AboutMe
+
+  --Contact
+
+  --Resume
+
+*/
+
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-150px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slideInBottom {
+  from {
+    transform: translateY(150px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+
+/* required */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.link {
+  color: #2B242E;
+}
+
+.link:hover {
+  color: #4d3f53
+}
+
+
+/* 
+-----------Colors
+*/
+
+:root {
+  --colorthr: #FCF5DF;
+  --colortwo: #FCCABE;
+  --colorone: #EC8A90;
+  --offblack: #2B242E;
+}
+
+
+/* 
+-----------Colors
+*/
+
+
+
+/*
+  fonts
+*/
+
+
+.crimson {
+  font-family: 'Crimson Pro', serif;
+}
+
+
+
+.cavent {
+  font-family: 'Caveat', cursive;
+}
+
+/*
+  fonts
+*/
+
+
+.background {
+  background-color: var(--colortwo);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+}
+
+/* required */
+
+
+/* footer */
+
+
+.footer {
+  padding: 20px;
+}
+
+
+
+
+
+/* footer */
+
+/* Header */
+
+.siteTitle {
+  font-size: 35px;
+}
+
+
+.NavBar {
+  background-color: #FCCABE;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.NavUl {
+  padding: 14px;
+  font-size: 20px;
+}
+
+.icon {
+  height: 50px;
+  margin: 20px;
+}
+
+/* Header */
+
+
+/* Home */
+
+.Home {
+  padding: 10px 250px 10px 250px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.homePhoto {
+  align-self: flex-end;
+  max-width: 550px;
+  max-height: 550px;
+  margin: 10px;
+
+}
+
+
+.homeText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  max-width: 600px;
+
+}
+
+.subTitleHome {
+  font-size: 35px;
+}
+
+
+.titleHome {
+  font-size: 50px;
+}
+
+.subtextHome {
+  font-size: 20px
+}
+
+
+/* Home */
+/* portfolio */
+
+.portfolioTitle {
+  font-size: 50px;
+  padding: 35px;
+}
+
+.projectPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+/* */
+.bigportfolioTitle {
+  padding: 55px;
+  font-size: 55px;
+}
+
+.bigprojectPage {
+  background-color: #FCCABE;
+  padding: 35px;
+}
+
+.bigprojectCard {
+  width: 700px;
+  animation-name: slideInBottom;
+  animation-duration: 1.5s;
+}
+
+.bigprojectPhoto {
+  background-color: var(--offblack);
+  height: 350px;
+  width: 700px;
+}
+
+.bigprojectTitle {
+  background-color: var(--colorone);
+  color: var(--offblack);
+  padding: 15px;
+  font-size: 36px;
+
+}
+
+.bigprojectDesc {
+  padding: 15px;
+  font-size: 18px;
+}
+
+/* ////////////////////////////////////////////////*/
+
+.projectDiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 30px 30px 30px;
+  justify-content: center;
+}
+
+
+.projectPage {
+  background-color: #FCCABE;
+  padding: 30px;
+}
+
+.projectCard {
+  width: 375px;
+  margin: 50px;
+  animation-name: slideInBottom;
+  animation-duration: 2.50s;
+
+}
+
+.projectPhoto {
+  background-color: var(--offblack);
+  height: 250px;
+  width: 375px;
+
+  transition-duration: 0.5s;
+
+}
+
+.projectPhoto:hover {
+
+  opacity: 60%;
+}
+
+
+
+.projectTitle {
+  background-color: var(--colorone);
+  color: var(--offblack);
+  padding: 15px;
+
+}
+
+.projectDres {
+  padding: 10px;
+}
+
+
+
+
+/* portfolio */
+/* AboutMe */
+
+.aboutMe {
+  display: flex;
+  padding: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilePhoto {
+  background-color: #382e2f;
+  min-width: 400px;
+  min-height: 400px;
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 50%;
+}
+
+.aboutText {
+  padding: 45px;
+  max-width: 800px;
+}
+
+.aboutTitle {
+  font-size: 40px;
+}
+
+
+.aboutDesc {
+  font-size: 22px;
+}
+
+/* AboutMe */
+
+
+/* Contact */
+
+.Contact {
+  padding: 50px;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+
+}
+
+.inset {
+  background-color: var(--colorthr);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.Title {
+  margin: 60px;
+  font-size: 40px;
+}
+
+
+.FormBtn {
+  padding: 5px;
+  border: none;
+  border-radius: 7px;
+  background-color: var(--colorone);
+  width: 30%;
+}
+
+
+/* Contact */
+/* Resume */
+.ResumeWhole {
+  color: var(--offblack);
+  padding: 50px 300px 100px 100px;
+
+}
+
+
+
+
+/* Resume */
