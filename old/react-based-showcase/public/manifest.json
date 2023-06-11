@@ -1,0 +1,15 @@
+{
+  "short_name": "Leah Xinli",
+  "name": "Leah Xinli Harden Website",
+  "icons": [
+    {
+      "src": "Icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

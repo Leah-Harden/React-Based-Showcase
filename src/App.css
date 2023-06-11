@@ -103,6 +103,7 @@
 
 .background {
   background-color: var(--colortwo);
+
 }
 
 .col {
@@ -132,18 +133,28 @@
 
 /* Header */
 
-.siteTitle {
+.TrueTitle {
+  display: flex;
   font-size: 35px;
+  align-self: center;
 }
 
 
 .NavBar {
+  display: flex;
+  justify-content: space-between;
   background-color: #FCCABE;
   min-height: 5vh;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 20px;
+  padding: 20px 40px 20px 40px;
+}
+
+@media screen and (max-width: 620px) {
+  .NavBar {
+    flex-direction: column;
+  }
 }
 
 .NavUl {
@@ -162,7 +173,7 @@
 /* Home */
 
 .Home {
-  padding: 10px 250px 10px 250px;
+  margin: 0px 260px 0px 260px;
   display: flex;
   flex-direction: column;
 
@@ -171,9 +182,9 @@
 
 .homePhoto {
   align-self: flex-end;
-  max-width: 550px;
-  max-height: 550px;
-  margin: 10px;
+  max-width: 450px;
+  max-height: 450px;
+  margin: 20px;
 
 }
 
