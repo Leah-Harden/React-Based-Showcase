@@ -2,7 +2,7 @@
 
 
 import Nav from './Nav.js';
-import Social from '../Footer/Social.js'
+import Social from './Social.js'
 import Title from './Title.js';
 
 

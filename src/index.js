@@ -19,7 +19,6 @@ root.render(
   <React.StrictMode>
     <Header />
     <App />
-
   </React.StrictMode>
 );
 
