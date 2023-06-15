@@ -4,11 +4,11 @@ const projects = [
 
 
     {
-        photo: `photos/projects/Note.png`,
-        phototext: `A note screenshot`,
-        link: `https://github.com/Leah-Harden/The-Perfect-Note-Taker`,
-        title: `The Perfect Note Taker`,
-        desc: `This is a applaction that you can add and save notes. This is done using the Express and Node.js. Use it to stay organized and keep track of important information.`
+        photo: `/photos/projects/AA.jpg`,
+        phototext: `The recall page of Ask Alice`,
+        link: `https://github.com/Leah-Harden/Ask-Alice`,
+        title: `Ask Alice`,
+        desc: `For the first group project, we were tasked with developing an interactive front-end web application that uses two different server side API's. We came up with a search engine that fetches from the FDA's API to display information on a range of recalled prescription drugs, and then we fetch from Pexel API to generate random images that accompany the drug information.`
     },
     {
         photo: `photos/projects/butterfly-APi.jpg`,
