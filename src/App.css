@@ -206,7 +206,7 @@
   align-self: flex-end;
   max-width: 450px;
   max-height: 450px;
-  margin: 20px;
+  margin: 40px 20px 0px 20px;
 
 }
 
@@ -248,6 +248,12 @@
 .portfolioTitle {
   font-size: 50px;
   padding: 35px;
+}
+
+/* 
+does not work  */
+.portfolioTitle:hover {
+  color: var(--colorthr)
 }
 
 .projectPage {
@@ -354,6 +360,10 @@
 
 }
 
+.shadowProject {
+  box-shadow: #765762 5px 5px 10px;
+}
+
 .projectPhoto:hover {
 
   opacity: 60%;
@@ -438,10 +448,16 @@
 }
 
 
+.nameForm {
+
+  align-self: center;
+}
+
 .FormBtn {
   padding: 5px;
   border: none;
   border-radius: 7px;
+  margin: 25px;
   background-color: var(--colorone);
   width: 30%;
 }

@@ -41,18 +41,20 @@ const SubmitForm = () => {
     return (
 
         <form className="formResume crimson" onSubmit={handleSubmit}>
-            <div className='center formDiv'>
-                <input type="text" name="fname" id='firstName' className="inset" onChange={handleChange} />
-                <input type="text" name="lname" className="inset" onChange={handleChange} />
-            </div>
-            <div className="col center">
+            <div className="col ">
+                <div className='nameForm'>
+
+                    <input type="text" name="fname" id='firstName' className="inset" onChange={handleChange} />
+                    <input type="text" name="lname" className="inset" onChange={handleChange} />
+                </div>
+
                 <input type="email" name="email" className="inset emailForm" onChange={handleChange} />
 
 
 
 
                 <textarea className="inset FormTextarea" rows='10' cols={50} name='message' onChange={handleChange} />
-                <button type="submit" className="FormBtn">Submit</button>
+                <button type="submit" className="FormBtn nameForm">Submit</button>
             </div>
         </form >);
 
