@@ -9,7 +9,7 @@ import Title from './Title.js';
 function Header() {
     return (
 
-        <div className='NavBar '>
+        <div className='NavBar'>
             <Nav />
             <Title />
             <Social />

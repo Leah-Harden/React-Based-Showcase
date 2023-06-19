@@ -5,7 +5,6 @@
     --colors
     --fonts
 -------------------
-  --footer
   
   --Header
 
@@ -45,6 +44,8 @@
 
 /* required */
 
+
+
 .App {
   text-align: center;
 }
@@ -54,18 +55,17 @@
   pointer-events: none;
 }
 
-.link {
-  color: #2B242E;
-}
+
 
 .link:hover {
-  color: #4d3f53
+  color: var(--colorone)
 }
 
 
 /* 
 -----------Colors
 */
+
 
 :root {
   --colorthr: #FCF5DF;
@@ -96,9 +96,11 @@
   font-family: 'Caveat', cursive;
 }
 
+
 /*
   fonts
 */
+
 
 
 .background {
@@ -119,20 +121,13 @@
 /* required */
 
 
-/* footer */
-
-
-.footer {
-  padding: 20px;
-}
 
 
 
-
-
-/* footer */
 
 /* Header */
+
+
 
 .TrueTitle {
   display: flex;
@@ -142,9 +137,10 @@
 
 
 .NavBar {
-  display: flex;
+
   justify-content: space-between;
-  background-color: #FCCABE;
+  background-color: var(--offblack);
+  color: var(--colortwo);
   min-height: 5vh;
   display: flex;
   flex-direction: row;
@@ -161,6 +157,14 @@
 .NavUl {
   padding: 14px;
   font-size: 20px;
+  color: var(--colortwo);
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.NavItem {
+  padding: 10px 10px 0px 10px;
 }
 
 .icon {
@@ -168,10 +172,15 @@
   margin: 20px;
 }
 
+
 /* Header */
 
 
+
+
 /* Home */
+
+
 
 .Home {
 

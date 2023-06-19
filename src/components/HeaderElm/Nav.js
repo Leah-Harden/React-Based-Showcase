@@ -1,5 +1,5 @@
 import Nav from 'react-bootstrap/Nav';
-import { Anchor } from 'antd';
+
 
 
 
@@ -19,29 +19,24 @@ const handleClickScroll = (n) => {
 function Header() {
     return (
         <div>
-            <Nav className='NavUl crimson'>
-                <Nav.Item>
-                    <Nav.Link className='link'
-                        onClick={() => handleClickScroll('Home')}
-                    >Home</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link className='link' onClick={() => handleClickScroll('About')}>About</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link className='link' onClick={() => handleClickScroll('Portfolio')}>Portfolio</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link className='link'
-                        onClick={() => handleClickScroll('Contact')}
-                    >Contact</Nav.Link>
-                </Nav.Item>
+            <ul className='NavUl crimson'>
+
+                <li className='link NavItem'
+                    onClick={() => handleClickScroll('Home')}
+                >Home</li>
+                <li className='link NavItem' onClick={() => handleClickScroll('About')}>About</li>
+                <li className='link NavItem' onClick={() => handleClickScroll('Portfolio')}>Portfolio</li>
+
+                <li className='link NavItem'
+                    onClick={() => handleClickScroll('Contact')}
+                >Contact</li>
+
                 {/* 
                 <Nav.Item>
                     <Nav.Link href="/resume" className='link'>Resume</Nav.Link>
                 </Nav.Item> 
                 */}
-            </Nav>
+            </ul>
         </div>
     );
 
