@@ -2,7 +2,7 @@ import Profile from './Profile';
 
 function AboutMe() {
     return (
-        <div className='aboutMe' id="HomePage">
+        <div className='aboutMe' id="About">
             <Profile />
             <div className='aboutText'>
                 <h2 className='cavent aboutTitle'>You know a stranger is just a friend you have not made yet!</h2>

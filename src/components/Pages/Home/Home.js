@@ -3,7 +3,7 @@ import Photo from './Photo'
 
 function Home() {
     return (
-        <div className="Home">
+        <div className="Home" id='Home'>
             <Photo />
             <div className="homeText">
 

@@ -7,9 +7,8 @@ import projects from './seed.js';
 
 
 function Portfolio() {
-    console.log(projects)
     return (
-        <div className='background projectPage'>
+        <div className='background projectPage' id='Portfolio'>
             <h2 className='crimson portfolioTitle'>Take a look around</h2>
             <BigProject />
             <div className='projectDiv'>
