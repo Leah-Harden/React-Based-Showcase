@@ -252,9 +252,7 @@
 
 /* 
 does not work  */
-.portfolioTitle:hover {
-  color: var(--colorthr)
-}
+
 
 .projectPage {
   display: flex;
@@ -390,10 +388,18 @@ does not work  */
 
 .aboutMe {
   display: flex;
-  padding: 200px;
+  padding: 10%;
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 920px) {
+  .aboutMe {
+    flex-direction: column;
+  }
+}
+
+
 
 .profilePhoto {
   background-color: #382e2f;
