@@ -35,7 +35,7 @@ const SubmitForm = () => {
 
     const validateEmail = (email) => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        setEmailValid(emailRegex.test(email));
+        setEmailValid(emailRegex.test(email))
     }
 
     return (
@@ -44,16 +44,17 @@ const SubmitForm = () => {
             <div className="col ">
                 <div className='nameForm'>
 
-                    <input type="text" name="fname" id='firstName' className="inset" onChange={handleChange} />
-                    <input type="text" name="lname" className="inset" onChange={handleChange} />
+                    <input type="text" name="fname" id='firstName' className="inset" placeholder='First Name' onChange={handleChange} />
+                    <input type="text" name="lname" className="inset" placeholder='Last Name' onChange={handleChange} />
                 </div>
 
-                <input type="email" name="email" className="inset emailForm" onChange={handleChange} />
+                <input type="email" name="email" className="inset emailForm"
+                    placeholder='Email' onChange={handleChange} />
 
 
 
 
-                <textarea className="inset FormTextarea" rows='10' cols={50} name='message' onChange={handleChange} />
+                <textarea className="inset FormTextarea" rows='10' cols={50} name='message' placeholder='What do you want to talk about?' onChange={handleChange} />
                 <button type="submit" className="FormBtn nameForm">Submit</button>
             </div>
         </form >);
