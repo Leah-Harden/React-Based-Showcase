@@ -313,6 +313,11 @@ does not work  */
 }
 
 
+.shadowBigProject {
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
 
 @media screen and (max-width: 620px) {
   .bigprojectPhoto {
@@ -347,6 +352,7 @@ does not work  */
   animation-duration: 2.50s;
 
 
+
 }
 
 .projectPhoto {
@@ -356,15 +362,18 @@ does not work  */
   border-radius: 10px 10px 0px 0px;
   transition-duration: 0.5s;
 
+
 }
 
 .shadowProject {
-  box-shadow: #765762 5px 5px 10px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
 .projectPhoto:hover {
 
   opacity: 60%;
+
 }
 
 
@@ -374,6 +383,7 @@ does not work  */
   color: var(--offblack);
   padding: 15px;
   border-radius: 0px 0px 10px 10px;
+
 }
 
 .projectDres {
