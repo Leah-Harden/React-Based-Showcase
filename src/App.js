@@ -7,9 +7,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './components/Pages/Home/Home';
 import About from './components/Pages/AboutMe/AboutMe';
-import Contact from './components/Pages/Contact/Contact';
 
 import Portfolio from './components/Pages/Portfolio/Portfolio';
+import Resume from './components/Pages/Resume/ResumeText';
+import Contact from './components/Pages/Contact/Contact';
 
 import './App.css'; // Import the CSS file
 
@@ -20,6 +21,7 @@ function App() {
       <Home />
       <About />
       <Portfolio />
+      <Resume />
       <Contact />
 
 

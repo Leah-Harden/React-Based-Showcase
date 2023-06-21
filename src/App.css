@@ -477,13 +477,21 @@ does not work  */
 
 /* Contact */
 /* Resume */
-.ResumeWhole {
+.resumePart {
   color: var(--offblack);
-  padding: 50px 300px 100px 100px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin: 30px;
 }
 
+.TitleContact {
+  margin: 50px;
+}
 
-
+.emptyspace {
+  height: 100px;
+}
 
 /* Resume */
