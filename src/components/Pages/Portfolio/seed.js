@@ -4,14 +4,14 @@ const projects = [
 
 
     {
-        photo: `/photos/projects/AA.jpg`,
+        photo: `photos/projects/AA.jpg`,
         phototext: `The recall page of Ask Alice`,
         link: `https://github.com/Leah-Harden/Ask-Alice`,
         title: `Ask Alice`,
         desc: `For the first group project, we were tasked with developing an interactive front-end web application that uses two different server side API's. We came up with a search engine that fetches from the FDA's API to display information on a range of recalled prescription drugs, and then we fetch from Pexel API to generate random images that accompany the drug information.`
     },
     {
-        photo: `photos/projects/butterfly-APi.jpg`,
+        photo: `photos/projects/butterfly-API.jpg`,
         phototext: `screenshot of insomnia`,
         link: `https://github.com/Leah-Harden/Social-Network-API-Butterfly`,
         title: `Social-Network-API-Butterfly`,

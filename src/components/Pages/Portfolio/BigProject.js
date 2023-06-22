@@ -9,7 +9,7 @@ function BigProject() {
                 <div className="shadowBigProject">
 
                     <a href='https://github.com/Qaizen/curious-chronicles' className="bigprojectA">
-                        <img src="/photos/projects/CC.png" className="bigprojectPhoto" alt='The front page of Curious Chronicles' />
+                        <img src="photos/projects/CC.png" className="bigprojectPhoto" alt='The front page of Curious Chronicles' />
                         <h2 className="bigprojectTitle cavent">Curious Chronicles
                         </h2>
                     </a>

@@ -23,9 +23,12 @@ function Header() {
                 <li className='link NavItem' onClick={() => handleClickScroll('Portfolio')}>Portfolio</li>
 
                 <li className='link NavItem'
+                    onClick={() => handleClickScroll('Resume')}
+                >Resume</li>
+
+                <li className='link NavItem'
                     onClick={() => handleClickScroll('Contact')}
                 >Contact</li>
-
                 {/* 
                 <Nav.Item>
                     <Nav.Link href="/resume" className='link'>Resume</Nav.Link>
