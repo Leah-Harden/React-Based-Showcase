@@ -157,17 +157,6 @@
   list-style: none;
 }
 
-@media screen and (max-width: 620px) {
-  .NavBar {
-    flex-direction: column;
-  }
-
-  .NavUl {
-    padding: 5px;
-    font-size: 18px;
-
-  }
-}
 
 .NavItem {
   padding: 10px 10px 0px 10px;
@@ -178,6 +167,60 @@
   margin: 20px;
 }
 
+@media screen and (max-width: 920px) {
+  .NavBar {
+    flex-direction: column;
+  }
+
+  .NavUl {
+    padding: 10px;
+    font-size: 18px;
+
+  }
+
+  .TrueTitle {
+
+    font-size: 35px;
+
+  }
+
+  .NavItem {
+    padding: 10px 10px 0px 10px;
+  }
+
+  .icon {
+    height: 40px;
+    margin: 10px;
+  }
+}
+
+
+@media screen and (max-width: 620px) {
+  .NavBar {
+    flex-direction: column;
+  }
+
+  .NavUl {
+    padding: 10px;
+    font-size: 14px;
+
+  }
+
+  .TrueTitle {
+
+    font-size: 25px;
+
+  }
+
+  .NavItem {
+    padding: 5px 5px 0px 5px;
+  }
+
+  .icon {
+    height: 40px;
+    margin: 10px;
+  }
+}
 
 
 
@@ -215,10 +258,18 @@
 
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 920px) {
   .homePhoto {
     max-width: 300px;
     max-height: 300px;
+    margin: 40px 0px 30px 0px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .homePhoto {
+    max-width: 250px;
+    max-height: 250px;
     margin: 40px 0px 30px 0px;
   }
 }
@@ -247,7 +298,20 @@
   font-size: 20px
 }
 
+@media screen and (max-width: 620px) {
+  .subTitleHome {
+    font-size: 28px;
+  }
 
+
+  .titleHome {
+    font-size: 35px;
+  }
+
+  .subtextHome {
+    font-size: 15px
+  }
+}
 
 
 
@@ -349,24 +413,37 @@ does not work  */
 @media screen and (max-width: 620px) {
   .bigprojectPhoto {
     height: 250px;
-    width: 400px;
+    width: 300px;
   }
 
+  .portfolioTitle {
+    font-size: 40px;
+  }
 
   .bigprojectCard {
-    width: 400px;
+    width: 300px;
   }
+
+  .bigprojectDesc {
+    padding: 15px;
+    font-size: 16px;
+  }
+
 }
 
 @media screen and (max-width: 520px) {
   .bigprojectPhoto {
-    height: 200px;
-    width: 320px;
+    height: 170px;
+    width: 250px;
     margin: 0px;
   }
 
+  .bigprojectTitle {
+    font-size: 28px;
+  }
+
   .bigprojectCard {
-    width: 320px;
+    width: 250px;
     margin: 0px;
   }
 }
@@ -439,7 +516,7 @@ does not work  */
   padding: 10px;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 620px) {
   .projectPhoto {
     height: 200px;
     width: 300px;
@@ -447,6 +524,18 @@ does not work  */
 
   .projectCard {
     width: 300px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .projectPhoto {
+    height: 150px;
+    width: 250px;
+  }
+
+  .projectCard {
+    width: 250px;
+    font-size: 14px;
   }
 }
 
@@ -495,6 +584,16 @@ does not work  */
   }
 }
 
+@media screen and (max-width: 620px) {
+  .profilePhoto {
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+
 .aboutText {
   padding: 45px;
   max-width: 800px;
@@ -523,7 +622,67 @@ does not work  */
   }
 }
 
+@media screen and (max-width: 620px) {
+  .aboutText {
+    padding: 15px;
+    max-width: 800px;
+  }
+
+  .aboutTitle {
+    font-size: 26px;
+  }
+
+  .aboutDesc {
+    font-size: 14px;
+  }
+}
+
 /* AboutMe */
+
+
+
+
+
+
+
+/* Resume */
+.resumePart {
+  color: var(--offblack);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  padding: 30px;
+}
+
+.TitleContact {
+  padding: 50px;
+}
+
+.emptyspace {
+  height: 100px;
+}
+
+
+@media screen and (max-width: 620px) {
+  .resumePart {
+
+    font-size: 30px;
+    padding: 20px;
+  }
+}
+
+/* Resume */
+
+
+
+
+
+
+
+
+
+
 
 
 /* Contact */
@@ -567,24 +726,12 @@ does not work  */
   width: 30%;
 }
 
+@media screen and (max-width: 620px) {
+  .Title {
+    margin: 30px;
+    font-size: 30px;
+  }
+}
+
 
 /* Contact */
-/* Resume */
-.resumePart {
-  color: var(--offblack);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 40px;
-  padding: 30px;
-}
-
-.TitleContact {
-  padding: 50px;
-}
-
-.emptyspace {
-  height: 100px;
-}
-
-/* Resume */

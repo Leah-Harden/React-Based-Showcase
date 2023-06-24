@@ -10,7 +10,7 @@ function Contact() {
 
             <h2 className='Title cavent'>Let's get in contact
             </h2>
-            <h3 className='TitleContact crimson'>Please email me at   -leahxharden@gmail.com-</h3>
+            <h3 className='TitleContact crimson'>Please email me at&nbsp;leahxharden@gmail.com</h3>
             {/* <Form /> */}
             <div className="emptyspace"></div>
         </div>
