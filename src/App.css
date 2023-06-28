@@ -133,6 +133,7 @@
   display: flex;
   font-size: 35px;
   align-self: center;
+
 }
 
 
@@ -146,6 +147,14 @@
   flex-direction: row;
   align-items: center;
   padding: 20px 40px 20px 40px;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+  z-index: 100;
+  /* Makes it so that nothing is above it */
 }
 
 .NavUl {
@@ -234,6 +243,7 @@
 
   margin: 0px 260px 0px 260px;
   padding-bottom: 100px;
+  padding-top: 130px;
   display: flex;
   flex-direction: column;
 
@@ -242,7 +252,8 @@
 
 @media screen and (max-width: 920px) {
   .Home {
-    margin: 0px 20px 0px 20px;
+    margin: 0px 40px 0px 40px;
+    padding-top: 210px;
   }
 }
 
