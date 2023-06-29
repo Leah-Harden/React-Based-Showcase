@@ -3,7 +3,11 @@
 
 function Profile({ }) {
     return (
-        <img src='photos/Me/MeBook.jpg' alt="" className="profilePhoto" />
+        <div>
+
+            <img src='photos/Me/MeBook.jpg' alt="" className="profilePhoto" />
+            <div className="BorderBottom"></div>
+        </div>
     );
 }
 

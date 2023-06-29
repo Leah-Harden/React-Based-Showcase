@@ -71,6 +71,7 @@
   --colorthr: #FCF5DF;
   --colortwo: #FCCABE;
   --colorone: #EC8A90;
+  --purple: #46354A;
   --offblack: #2B242E;
 }
 
@@ -331,6 +332,13 @@
 
 
 
+
+
+
+
+
+
+
 /* Home */
 /* portfolio */
 
@@ -550,9 +558,6 @@ does not work  */
   }
 }
 
-
-
-
 /* portfolio */
 /* AboutMe */
 
@@ -560,49 +565,48 @@ does not work  */
 
 
 
+
+
+
+
+
+
+
+
 .aboutMe {
   display: flex;
-  padding: 10%;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.rowAboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 55px;
 }
 
 
-
-
-
 .profilePhoto {
-  background-color: #382e2f;
+
   min-width: 400px;
   min-height: 400px;
   max-width: 400px;
   max-height: 400px;
-  border-radius: 50%;
-  border: none;
+  border-radius: 50% 50% 0% 0%;
+
 }
 
-@media screen and (max-width: 920px) {
-  .profilePhoto {
-    min-width: 330px;
-    min-height: 330px;
-    max-width: 330px;
-    max-height: 330px;
-  }
+.BorderBottom {
+  height: 75px;
+  width: 400px;
+  background-color: var(--purple);
 
-  .aboutText {
-    padding: 25px;
-    max-width: 800px;
-  }
 }
 
-@media screen and (max-width: 620px) {
-  .profilePhoto {
-    min-width: 250px;
-    min-height: 250px;
-    max-width: 250px;
-    max-height: 250px;
-  }
-}
+
 
 
 .aboutText {
@@ -620,6 +624,78 @@ does not work  */
 }
 
 @media screen and (max-width: 920px) {
+  .profilePhoto {
+    min-width: 330px;
+    min-height: 330px;
+    max-width: 330px;
+    max-height: 330px;
+  }
+
+  .BorderBottom {
+    height: 55px;
+    width: 330px;
+
+  }
+
+  .rowAboutMe {
+    flex-direction: column;
+  }
+
+}
+
+
+@media screen and (max-width: 620px) {
+  .profilePhoto {
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .BorderBottom {
+    height: 45px;
+    width: 250px;
+
+  }
+}
+
+
+.rowPinkBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+
+.pinkBox {
+  background-color: var(--colorone);
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  width: 230px;
+  margin: 35px;
+}
+
+.vlHobbies {
+  background-color: var(--purple);
+  height: 70px;
+  width: 7px;
+  border-radius: 5px;
+}
+
+.ImgHobbies {
+  height: 70px;
+  margin: 10px;
+}
+
+.titleHobbies {
+  margin: 7px;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 920px) {
   .aboutMe {
     flex-direction: column;
   }
@@ -630,6 +706,30 @@ does not work  */
 
   .aboutDesc {
     font-size: 18px;
+  }
+
+  .rowPinkBox {
+    flex-direction: column;
+  }
+
+
+  .pinkBox {
+
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    width: 180px;
+    margin: 15px;
+  }
+
+  .titleHobbies {
+    margin: 7px;
+    font-size: 21px;
+  }
+
+  .ImgHobbies {
+    height: 50px;
+    margin: 10px;
   }
 }
 
@@ -649,14 +749,23 @@ does not work  */
 }
 
 /* AboutMe */
-
-
-
-
-
-
-
 /* Resume */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .resumePart {
   color: var(--offblack);
   display: flex;
