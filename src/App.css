@@ -244,7 +244,7 @@
 
   margin: 0px 260px 0px 260px;
   padding-bottom: 100px;
-  padding-top: 130px;
+  padding-top: 160px;
   display: flex;
   flex-direction: column;
 
@@ -345,6 +345,7 @@
 .portfolioTitle {
   font-size: 50px;
   padding: 35px;
+  margin: 100px 0px 30px 0px;
 }
 
 /* 
@@ -676,6 +677,10 @@ does not work  */
   justify-content: baseline;
   width: 230px;
   margin: 35px;
+}
+
+.thingILikes {
+  font-size: 28px;
 }
 
 .vlHobbies {
