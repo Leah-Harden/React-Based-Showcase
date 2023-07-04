@@ -32,11 +32,11 @@ const projects = [
         desc: `You can easily create a team for your business and keep track of your employees. You have the option to add a manager, intern, and engineer, and each employee will be linked to their respective manager. Additionally, you can customize each employee's job. Than it will create a html page that you can open up with live server. `
     },
     {
-        photo: `photos/projects/ReadMe.png`,
+        photo: `photos/projects/CC.png`,
         phototext: ``,
-        link: `https://github.com/Leah-Harden/Professional-Readme-Maker`,
-        title: `Professional Readme Maker`,
-        desc: `This is a program designed to create a Readme file for you. By answering a few simple questions, you can save valuable time that can be spent on coding. Our program will generate a file based on your responses, making it easy for you to create a professional and informative Readme file.`
+        link: `https://github.com/Qaizen/curious-chronicles`,
+        title: `Curious Chronicles`,
+        desc: `The development of this sophisticated web application is driven by the utilization of an extensive technology stack, including HTML, CSS, JavaScript, MongoDB, Express, React Node, GraphQL, and Node Package Manager. Its purpose is to establish an innovative online platform specifically designed for children's journaling.`
     },
     {
         photo: `photos/projects/Ball.jpg`,

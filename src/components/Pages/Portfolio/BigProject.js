@@ -8,13 +8,13 @@ function BigProject() {
             <div className="bigprojectCard">
                 <div className="shadowBigProject">
 
-                    <a href='https://github.com/Qaizen/curious-chronicles' className="bigprojectA">
-                        <img src="photos/projects/CC.png" className="bigprojectPhoto" alt='The front page of Curious Chronicles' />
-                        <h2 className="bigprojectTitle cavent">Curious Chronicles
+                    <a href='https://leahxinli.com/projects/iot-weather/' className="bigprojectA">
+                        <img src="photos/projects/Iotweather.png" className="bigprojectPhoto" alt='The front page of IOT weather' />
+                        <h2 className="bigprojectTitle cavent">IoT Weather
                         </h2>
                     </a>
                 </div>
-                <p className="bigprojectDesc crimson">The development of this sophisticated web application is driven by the utilization of an extensive technology stack, including HTML, CSS, JavaScript, MongoDB, Express, React Node, GraphQL, and Node Package Manager. Its purpose is to establish an innovative online platform specifically designed for children's journaling.</p>
+                <p className="bigprojectDesc crimson">Wi-Fi weather station using NodeMCU (a ESP8266 development board) to read temperature and barometric pressure with a BMP280 and send it to a HTTP endpoint using PHP to log data.I created the whole front end.</p>
             </div>
 
         </div>
