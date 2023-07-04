@@ -773,11 +773,8 @@ does not work  */
 
 .resumePart {
   color: var(--offblack);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 40px;
-  padding: 30px;
+  padding: 60px 30px 0px 30px;
 }
 
 .TitleContact {
@@ -811,9 +808,17 @@ a:hover {
 
 
 .hrResume {
-  color: var(--colorone);
-  height: 15px;
-  width: 80%;
+  border: 3px solid #EC8A90;
+  width: 70%;
+  opacity: 100%;
+  margin-bottom: 40px;
+}
+
+.centerResume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* Resume */
