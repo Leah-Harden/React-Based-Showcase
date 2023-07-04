@@ -797,6 +797,25 @@ does not work  */
   }
 }
 
+a {
+  color: var(--offblack);
+  text-decoration: none;
+  /* no underline */
+}
+
+a:hover {
+  color: var(--colorone);
+  text-decoration: none;
+  /* no underline */
+}
+
+
+.hrResume {
+  color: var(--colorone);
+  height: 15px;
+  width: 80%;
+}
+
 /* Resume */
 
 
